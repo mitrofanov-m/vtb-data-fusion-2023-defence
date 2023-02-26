@@ -1,0 +1,4 @@
+{
+    "image": "odsai/vtb22-data-fusion:0.0.3",
+    "entry_point": "python main.py"
+}
