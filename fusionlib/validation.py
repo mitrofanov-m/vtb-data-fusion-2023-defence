@@ -6,16 +6,16 @@ from .utils import custom_read_csv
 import json
 from tqdm import tqdm
 
-def convert_different_inputs_to_df(method_input: (str | pd.DataFrame)) -> pd.DataFrame:
+def convert_different_inputs_to_df(method_input) -> pd.DataFrame:
     if isinstance(method_input, str):
         object = pd.read_csv(method_input)
     elif isinstance(method_input, pd.DataFrame):
         object = method_input
     return object
 
-def validate_results(result_clear: (str | pd.DataFrame), 
-                   result_fraud: (str | pd.DataFrame), 
-                   targets: (str | pd.DataFrame), n_splits=5) -> float:
+def validate_results(result_clear, 
+                   result_fraud, 
+                   targets, n_splits=5) -> float:
     
     result_clear = convert_different_inputs_to_df(result_clear)
     result_fraud = convert_different_inputs_to_df(result_fraud)
