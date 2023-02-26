@@ -5,9 +5,9 @@ Data Fusion contest 2023 - [онлайн-соревнование](https://ods.a
 В данном репозитории представлено открытое решение задачи в виде jupyter ноутбука и python библиотеки для задачи [`Защита`](https://ods.ai/competitions/data-fusion2023-defence).
 
 ## 🔎 Описание
-```
-Machine learning models using transaction records as inputs are popular among financial institutions. The most efficient models use deep-learning architectures similar to those in the NLP community, posing a challenge due to their tremendous number of parameters and limited robustness. In particular, deep-learning models are vulnerable to adversarial attacks: a little change in the input harms the model's output.
-```
+
+> Machine learning models using transaction records as inputs are popular among financial institutions. The most efficient models use deep-learning architectures similar to those in the NLP community, posing a challenge due to their tremendous number of parameters and limited robustness. In particular, deep-learning models are vulnerable to adversarial attacks: a little change in the input harms the model's output.
+
 > [[Arxiv, 15 Jun 2021]](https://arxiv.org/abs/2106.08361) Adversarial Attacks on Deep Models for Financial Transaction Records
 
 В 2023 году Data Fusion contest - это турнир по Adversarial ML между командами атакующих и защищающих ML модели на транзакционных данных.
